@@ -1,16 +1,20 @@
 This just saves a step or two and clarifies some assumptions made when using [JavaScript Cookie](https://github.com/js-cookie/js-cookie). You’ll need to go there and download `js-cookie.js`.
 
+
 First, link to `js-cookies.js` in your `<head>`. For example:
 ```
 <script src="js-cookie.js"></script>
 ```
+
 
 Next, link to `v0.cookies.js`.
 ```
 <script src="v0-cookies.js"></script>
 ```
 
+
 In `v0.cookies.js`, write your scripts for whatever you want to happen when a user comes to your site with and/or without cookies.
+
 
 For example:
 ```
@@ -26,6 +30,7 @@ v0cookies = function() {
   }
 }
 ```
+
 
 Finally, in your JavaScript, call
 ```
