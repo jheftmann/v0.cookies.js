@@ -1,5 +1,7 @@
 This just saves a step or two and clarifies some assumptions made when using [JavaScript Cookie](https://github.com/js-cookie/js-cookie). You’ll need to go there and download `js-cookie.js`.
 
+[DEMO](https://v0-cookies.netlify.com)
+
 
 1. First, link to `js-cookies.js` in your `<head>`. For example:
 ```
