@@ -8,3 +8,32 @@
 body {
   font-family: helvetica;
 }
+
+body.v0-cookies-returning .v0-cookies-returning-hide {
+  display: none;
+}
+
+
+/* style your notification layer */
+.notification {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: red;
+  width: 250px;
+  padding: 20px;
+}
+
+.notification span {
+  color: white;
+}
+
+.hide-notification {
+  display: block;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.hide-notification:hover {
+  cursor: pointer;
+}
