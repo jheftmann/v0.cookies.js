@@ -2,7 +2,7 @@
 
 <hr>
 
-1. First, link to `js-cookies.js` in your `<head>`. For example:
+1. First, link to `js-cookies.js` in your `<head>`. More information at the [js-cookie](https://github.com/js-cookie/js-cookie) site or use the CDN.
 ```
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 ```
